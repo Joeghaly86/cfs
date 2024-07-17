@@ -1,0 +1,65 @@
+Type,Policy Name,Path,Standard,Customer,State
+IntuneAttackSurfaceReductionPolicyConfiguration,B365-W10-Endpoint-ASR-Attack Surface Reduction Rules v4.0 - defender_enablecontrolledfolderaccess-Win10,/defender_enablecontrolledfolderaccess-Win10,"""enablecontrolledfolderaccess_1""","""enablecontrolledfolderaccess_2""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - threatseveritydefaultaction_highseveritythreats-WinServer,/threatseveritydefaultaction_highseveritythreats-WinServer,"""highseveritythreats_block""","""highseveritythreats_quarantine""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - threatseveritydefaultaction_highseveritythreats-Win10,/threatseveritydefaultaction_highseveritythreats-Win10,"""highseveritythreats_block""","""highseveritythreats_quarantine""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - threatseveritydefaultaction_highseveritythreats-Win11,/threatseveritydefaultaction_highseveritythreats-Win11,"""highseveritythreats_block""","""highseveritythreats_quarantine""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - threatseveritydefaultaction_moderateseveritythreats-WinServer,/threatseveritydefaultaction_moderateseveritythreats-WinServer,"""moderateseveritythreats_quarantine""","""moderateseveritythreats_clean""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - threatseveritydefaultaction_moderateseveritythreats-Win11,/threatseveritydefaultaction_moderateseveritythreats-Win11,"""moderateseveritythreats_quarantine""","""moderateseveritythreats_clean""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - threatseveritydefaultaction_moderateseveritythreats-Win10,/threatseveritydefaultaction_moderateseveritythreats-Win10,"""moderateseveritythreats_quarantine""","""moderateseveritythreats_clean""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - defender_schedulescanday-WinServer,/defender_schedulescanday-WinServer,"""schedulescanday_0""","""schedulescanday_5""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - defender_schedulescanday-Win11,/defender_schedulescanday-Win11,"""schedulescanday_0""","""schedulescanday_5""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - defender_schedulescanday-Win10,/defender_schedulescanday-Win10,"""schedulescanday_0""","""schedulescanday_5""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - defender_allowintrusionpreventionsystem-Win11,/defender_allowintrusionpreventionsystem-Win11,"""allowintrusionpreventionsystem_0""","""allowintrusionpreventionsystem_1""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - defender_allowintrusionpreventionsystem-Win10,/defender_allowintrusionpreventionsystem-Win10,"""allowintrusionpreventionsystem_0""","""allowintrusionpreventionsystem_1""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - defender_enablenetworkprotection-WinServer,/defender_enablenetworkprotection-WinServer,"""enablenetworkprotection_1""","""enablenetworkprotection_2""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - defender_enablenetworkprotection-Win11,/defender_enablenetworkprotection-Win11,"""enablenetworkprotection_1""","""enablenetworkprotection_2""",OutOfSync
+IntuneAntiVirusPolicyConfiguration,B365-W10-Endpoint-Antivirus-Defender Configuration v4.0 - defender_enablenetworkprotection-Win10,/defender_enablenetworkprotection-Win10,"""enablenetworkprotection_1""","""enablenetworkprotection_2""",OutOfSync
+MdoAntiSpamOutboundPolicies,Default,/ActionWhenThresholdReached,"""BlockUser""","""Alert""",OutOfSync
+MdoAntiSpamOutboundPolicies,Default,/NotifyOutboundSpam,"""false""","""True""",OutOfSync
+MdoAntiSpamInboundPolicies,Default,/HighConfidenceSpamAction,"""Quarantine""","""MoveToJmf""",OutOfSync
+MdoAntiSpamInboundPolicies,Default,/SpamAction,"""Quarantine""","""MoveToJmf""",OutOfSync
+MdoAntiSpamInboundPolicies,Default,/BulkSpamAction,"""Delete""","""MoveToJmf""",OutOfSync
+MdoAntiSpamInboundPolicies,Default,/PhishSpamAction,"""Quarantine""","""MoveToJmf""",OutOfSync
+MdoAntiSpamInboundPolicies,Default,/HighConfidencePhishQuarantineTag,"""DefaultFullAccessPolicy""","""AdminOnlyAccessPolicy""",OutOfSync
+MdoAntiMalwarePolicies,Default,/EnableFileFilter,"""true""","""False""",OutOfSync
+MdoAntiPhishPolicies,Office365 AntiPhish Default,/EnableTargetedDomainsProtection,"""false""","""True""",OutOfSync
+MdoAntiPhishPolicies,Office365 AntiPhish Default,/TargetedUserProtectionAction,"""Quarantine""","""MoveToJmf""",OutOfSync
+MdoAntiPhishPolicies,Office365 AntiPhish Default,/MailboxIntelligenceProtectionAction,"""Quarantine""","""MoveToJmf""",OutOfSync
+MdoAntiPhishPolicies,Office365 AntiPhish Default,/TargetedDomainProtectionAction,"""Quarantine""","""MoveToJmf""",OutOfSync
+MdoAntiPhishPolicies,Office365 AntiPhish Default,/PhishThresholdLevel,"""3""","""1""",OutOfSync
+MdoAntiPhishPolicies,Office365 AntiPhish Default,/TargetedUsersToProtect/0,"""Joseph Ghaly;joseph.ghaly@bpsocdev.onmicrosoft.com""","",MissinginCustomer
+MdcaAvailablePolicies,Malware detection,/ruleVersionId,"""652526ca357f8c0f02ee64a6""","""5b888277f83191228aad3020""",OutOfSync
+MdcaAvailablePolicies,Malware detection,/contentFilters/0,"""{\r\n  \u0022contentFilterTimestamp\u0022: 1696933578112.2322,\r\n  \u0022type\u0022: \u0022InternalThreatDetection\u0022,\r\n  \u0022enabled\u0022: true,\r\n  \u0022subtype\u0022: 0,\r\n  \u0022detonationEnabled\u0022: true\r\n}""","",MissinginCustomer
+MdcaAvailablePolicies,Malware detection,/contentFilters/0,"","{""contentFilterTimestamp"":1535672951028.548,""type"":""InternalThreatDetection"",""enabled"":true,""subtype"":0}",MissingInStandard
+MdcaAvailablePolicies,Malware detection,/lastScanned,"""1715053501879""","1631609399765",OutOfSync
+MdcaAvailablePolicies,Malware detection,/lastNrtEntityModificationScanned,"","""2022-08-09T17:42:53.474Z""",MissingInStandard
+MdcaAvailablePolicies,Malware detection,/lastEntityModificationScanned,"","""2022-08-06T19:11:21.277Z""",MissingInStandard
+MdcaAvailablePolicies,Malware detection,/matchesCount,"","""1""",MissingInStandard
+MdcaAvailablePolicies,Suspicious inbox manipulation rule,/matchesCount,"""0""","",MissinginCustomer
+MdcaAvailablePolicies,Suspicious inbox manipulation rule,/msFlowCheckboxChecked,"""false""","",MissinginCustomer
+MdcaAvailablePolicies,Suspicious inbox manipulation rule,/msFlowId,"""None""","",MissinginCustomer
+MdcaAvailablePolicies,Suspicious inbox manipulation rule,/readOnly,"""false""","",MissinginCustomer
+MdcaAvailablePolicies,Suspicious inbox manipulation rule,/templateId,"""None""","",MissinginCustomer
+MdcaAvailablePolicies,Suspicious inbox manipulation rule,/descriptionTemplate,"","""CONSOLE_POLICIES_BUILT_IN_POLICY_ANUBIS_INBOX_HIDING_DESCRIPTION""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/domains/0,"""bpsocdev.onmicrosoft.com""","",MissinginCustomer
+MdcaGeneralSettings,MDCA General Settings,/domains/0,"","""aritzia.onmicrosoft.com""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/domains/1,"","""aritzia.com""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/domains/2,"","""aritzia.mail.onmicrosoft.com""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/domains/3,"","""noussommesaritzia.com""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/domains/4,"","""wearearitzia.com""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/domains/5,"","""wingsandhorns.com""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/domains/6,"","""reigningchamp.com""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/domains/7,"","""cycdesigncorp.com""",MissingInStandard
+MdcaGeneralSettings,MDCA General Settings,/fileMonitoring/shouldEnableAfterDeletion,"""false""","",MissinginCustomer
+MdcaGeneralSettings,MDCA General Settings,/mdatpGlobalBypassDurationHours,"""None""","""1""",OutOfSync
+MdcaGeneralSettings,MDCA General Settings,/customWarnURL,"""None""","""https://www.aritzia.com""",OutOfSync
+IntuneEnrollmentWindowsHelloConfigurations,All users and all devices,/enhancedBiometricsState,"""notConfigured""","""enabled""",OutOfSync
+IntuneEnrollmentWindowsHelloConfigurations,All users and all devices,/securityKeyForSignIn,"""notConfigured""","""disabled""",OutOfSync
+IntuneEnrollmentWindowsHelloConfigurations,All users and all devices,/state,"""notConfigured""","""disabled""",OutOfSync
+IntuneEnrollmentRestrictionConfigurations,All users and all devices,/androidForWorkRestriction/platformBlocked,"""false""","""True""",OutOfSync
+IntuneEnrollmentRestrictionConfigurations,All users and all devices,/iosRestriction/platformBlocked,"""false""","""True""",OutOfSync
+IntuneEnrollmentRestrictionConfigurations,All users and all devices,/macOSRestriction/personalDeviceEnrollmentBlocked,"""true""","""False""",OutOfSync
+IntuneEnrollmentRestrictionConfigurations,All users and all devices,/macOSRestriction/platformBlocked,"""false""","""True""",OutOfSync
+IntuneEnrollmentRestrictionConfigurations,All users and all devices,/macRestriction/personalDeviceEnrollmentBlocked,"""true""","""False""",OutOfSync
+IntuneEnrollmentRestrictionConfigurations,All users and all devices,/macRestriction/platformBlocked,"""false""","""True""",OutOfSync
+IntuneW10CompliancePolicies,B365-W10-Compliance v4.0,/secureBootEnabled,"""true""","""False""",OutOfSync
