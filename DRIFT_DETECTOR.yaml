@@ -22,4 +22,5 @@ SkillGroups:
           WorkspaceName: SOC-DEMO
 
           Template: |-
-            let MITRE = externaldata (name:string,id:string,url:string,platforms:string,killchainphases:string,description:string,datasources:string,detection:string) [@https://github.com/Joeghaly86/cfs/blob/main/PETERBILT.Pending.May2024.csv"] with (ignoreFirstRecord=true, format="csv"); MITRE
+                     Template: |-
+            let MITRE = externaldata (Type:string,PolicyName:string,Path:string,Standard:string,Customer:string,State:string) [@https://github.com/Joeghaly86/cfs/blob/main/PETERBILT.Pending.May2024.csv"] with (ignoreFirstRecord=true, format="csv"); MITRE
