@@ -1,4 +1,4 @@
-Type,Policy Name,Path,Standard,Customer,State
+Type,PolicyName,Path,Standard,Customer,State
 MdoAntiSpamOutboundPolicies,Default,/ActionWhenThresholdReached,"""BlockUser""","""BlockUserForToday""",OutOfSync
 MdoAntiSpamInboundPolicies,Default,/IncreaseScoreWithNumericIps,"""Off""","""On""",OutOfSync
 MdoAntiSpamInboundPolicies,Default,/IncreaseScoreWithRedirectToOtherPort,"""Off""","""On""",OutOfSync
