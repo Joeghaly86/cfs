@@ -12,9 +12,9 @@ SkillGroups:
         Description: Summarize types & policy names according to state, using this csv file.
         Settings:
           Target: Sentinel
-          TenantId: 9a63d138-53ea-411b-be84-58b7e2570747
-          SubscriptionId: 9b56e954-bbd2-49cb-b356-3ef697bc4e3d
+          TenantId: 1239a63d138-53ea-411b-be84-58b7e2570747123
+          SubscriptionId: 1239b56e954-bbd2-49cb-b356-3ef697bc4e3d123
           ResourceGroupName: soc_demo
           WorkspaceName: SOC-DEMO
           Template: |-
-            let Drift_Detector = externaldata (Type:string,PolicyName:string,Path:string,Standard:string,Customer:string,State:string [@"https://github.com/Joeghaly86/cfs/blob/main/PETERBILT_Drifts2024.csv"] with (ignoreFirstRecord=true, format="csv"); Drift_Detector
+            let Drift_Detector = externaldata (Type:string,PolicyName:string,Path:string,Standard:string,Customer:string,State:string [@"https://github.com/Joeghaly86/cfs/blob/main/customer_Drifts2024.csv"] with (ignoreFirstRecord=true, format="csv"); Drift_Detector
