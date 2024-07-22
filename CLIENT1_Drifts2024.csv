@@ -1,0 +1,10 @@
+type,policyName,path,standard,customer,state
+MDO,Antiphishing,Phishing Threshold ,3,1,OutofSync
+MDO,Antiphishing,VIP Impersonation,enabled,disabled,OutofSync
+MDO,Antiphishing,Saftey Tips,enabled,disabled,OutofSync
+MDO,Antiphishing,High Severity Action,Delete,Quarantine,OutofSync
+MDO,Antimalware,Medium Severirty Action,Delete,Quarantine,OutofSync
+MDO,Safe Attachments,Full Query,Yes,No,OutofSync
+MDE,Antivirus,Cloud Protection,enabled,disabled,OutofSync
+MDE,Antivirus,ASR Rule - Block JavaScript,Block,Audit,OutofSync
+MDE,Antivirus,ASR Rule - Block Office macros,Block,Audit,OutofSync
